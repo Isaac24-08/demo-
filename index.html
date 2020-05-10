@@ -5,13 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Es6</title>
 
-    <script src="Output/classes.js"></script>
+    <style>
+
+        #ajax{
+            width: 500px;
+            height: 700px;
+            background-color: black;
+
+        }
+
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function (){
+
+            $("#boton").on("click", ()=>{
+
+               $("#ajax").remove();
+
+            })
+
+        });
+    
+    </script>
+
+    <!--<script src="Output/promesas.js"></script>-->
 
     
 </head>
 <body>
+
+    <input type="button" value="Click" id="boton">
     
-    <h1>Te wapoasbdjkasdasdasdasdfkasd  6</h1>
+    <div id="ajax"></div>
     
 </body>
 </html>
