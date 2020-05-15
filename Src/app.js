@@ -1,5 +1,5 @@
 
-import {mensajeAlerta, Saludo}  from "./modulos/mensajeAlerta"
+import {mensajeAlerta, Saludo}  from "modulos/mensajeAlerta"
 
 mensajeAlerta("Wapo")
 
